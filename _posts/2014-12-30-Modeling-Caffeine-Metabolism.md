@@ -86,23 +86,23 @@ end
 The first thing we should do with this model is the trivial case of simulating a single dose. This acts as a sanity check to make sure that things look reasonable. This yields:
 
 
-{% include figure.html src="../images/caff_fig1.png" caption="Figure 1: Response curve for a single cup of coffee equivalent at time 0." %}
-<!--- {% figure_img center 0 caption%} -->
+<!--- {% include figure.html src="../images/caff_fig1.png" caption="Figure 1: Response curve for a single cup of coffee equivalent at time 0." %} -->
+{% figure_img center 0 caption%}
 
 Cool! It looks like the model works on this trivial case. Now we can look at more interesting cases. The next example is a coffee-cup-equivalent every 24 hours.
 
-{% include figure.html src="../images/caff_fig2.png" caption="Figure 2: Response curve for a daily cup of coffee equivalent." %}
-<!--- {% figure_img center 1 caption %}-->
+(!--- {% include figure.html src="../images/caff_fig2.png" caption="Figure 2: Response curve for a daily cup of coffee equivalent." %} -->
+{% figure_img center 1 caption %}-->
 
 We can now look at someone who drinks coffee twice a day. Unfortunately, we're forced by our formalism to stick to doses that are 12 hours apart, which is perhaps not the most realistic model for how people consume coffee, but still perhaps worthwhile to look at.
 
-{% include figure.html src="../images/caff_fig3.png" caption="Figure 3: Response curve for two cups of coffee equivalent per day." %}
-<!--- {% figure_img center 2 caption %}-->
+<!--- {% include figure.html src="../images/caff_fig3.png" caption="Figure 3: Response curve for two cups of coffee equivalent per day." %} -->
+{% figure_img center 2 caption %}
 
 Now, we look at frequent consumption of a smaller dose of caffeine. Our model here is four servings of 54 mg of caffeine, simulating the extreme consumption of four cans of soda per day.
 
-{% include figure.html src="../images/caff_fig4.png" caption="Figure 4: Reponse curve for four cans of soda equivalent per day." %}
-<!--- {% figure_img center 3 caption %} -->
+<!--- {% include figure.html src="../images/caff_fig4.png" caption="Figure 4: Reponse curve for four cans of soda equivalent per day." %} -->
+{% figure_img center 3 caption %}
 
 Now we can think about the results a bit. First, the shape of the curves is entirely unsurprising--this is what a train of exponentials looks like. The result may be familiar from circuit theory. 
 
