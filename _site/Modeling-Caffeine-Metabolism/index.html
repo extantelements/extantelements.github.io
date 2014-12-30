@@ -90,23 +90,51 @@
 
 <p>The first thing we should do with this model is the trivial case of simulating a single dose. This acts as a sanity check to make sure that things look reasonable. This yields:</p>
 
-<figure class="center "><img src="/./images/caff_fig1.png" alt=" " /><figcaption><p>Figure 1: Response curve for a single cup of coffee equivalent at time 0.</p>
-</figcaption></figure>
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+<figure>
+<a href="../images/caff_fig1.png">
+<img src="../images/caff_fig1.png" alt="Figure 1: Response curve for a single cup of coffee equivalent at time 0." />
+</a>
+<figcaption>
+Figure 1: Response curve for a single cup of coffee equivalent at time 0.
+</figcaption>
+</figure>
 
 <p>Cool! It looks like the model works on this trivial case. Now we can look at more interesting cases. The next example is a coffee-cup-equivalent every 24 hours.</p>
 
-<figure class="center "><img src="/./images/caff_fig2.png" alt=" " /><figcaption><p>Figure 2: Response curve for a daily cup of coffee equivalent.</p>
-</figcaption></figure>
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+<figure>
+<a href="../images/caff_fig2.png">
+<img src="../images/caff_fig2.png" alt="Figure 2: Response curve for a daily cup of coffee equivalent." />
+</a>
+<figcaption>
+Figure 2: Response curve for a daily cup of coffee equivalent.
+</figcaption>
+</figure>
 
 <p>We can now look at someone who drinks coffee twice a day. Unfortunately, we’re forced by our formalism to stick to doses that are 12 hours apart, which is perhaps not the most realistic model for how people consume coffee, but still perhaps worthwhile to look at.</p>
 
-<figure class="center "><img src="/./images/caff_fig3.png" alt=" " /><figcaption><p>Figure 3: Response curve for two cups of coffee equivalent per day.</p>
-</figcaption></figure>
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+<figure>
+<a href="../images/caff_fig3.png">
+<img src="../images/caff_fig3.png" alt="Figure 3: Response curve for two cups of coffee equivalent per day." />
+</a>
+<figcaption>
+Figure 3: Response curve for two cups of coffee equivalent per day.
+</figcaption>
+</figure>
 
 <p>Now, we look at frequent consumption of a smaller dose of caffeine. Our model here is four servings of 54 mg of caffeine, simulating the extreme consumption of four cans of soda per day.</p>
 
-<figure class="center "><img src="/./images/caff_fig4.png" alt=" " /><figcaption><p>Figure 4: Reponse curve for four cans of soda equivalent per day.</p>
-</figcaption></figure>
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+<figure>
+<a href="../images/caff_fig4.png">
+<img src="../images/caff_fig4.png" alt="Figure 4: Reponse curve for four cans of soda equivalent per day." />
+</a>
+<figcaption>
+Figure 4: Reponse curve for four cans of soda equivalent per day.
+</figcaption>
+</figure>
 
 <p>Now we can think about the results a bit. First, the shape of the curves is entirely unsurprising–this is what a train of exponentials looks like. The result may be familiar from circuit theory. </p>
 
