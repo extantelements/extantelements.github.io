@@ -6,9 +6,9 @@ title: Modeling Caffeine Metabolism - mathematical note
 
 I wanted to make a quick mathematical note on the long term behavior of our caffeine metabolism function. In the previous post, we came up with the expressions 
 
-$$f(t)=d\cdot e^{-t/\tau}$$ as the exponential decay for a single dose of $$d$$ milligrams at time $$t$$.
+$$f(t)=d\cdot e^{-t/\tau}$$ as the exponential decay for a single dose of $$d~$$ milligrams at time $$t$$.
 
-$$\displaystyle f(t) = d e^{-t/\tau} \left(\frac{1-e^{a(n+1)/\tau}}{1-e^{a/\tau}}\right)$$ for the behavior at time $$t$$ for a dose of $$d$$ mg delivered every $$a$$ hours, where $$n=\lfloor t/a \rfloor$$.
+$$\displaystyle f(t) = d e^{-t/\tau} \left(\frac{1-e^{a(n+1)/\tau}}{1-e^{a/\tau}}\right)$$ for the behavior at time $$t~$$ for a dose of $$d~$$ mg delivered every $$a~$$ hours, where $$n=\lfloor t/a \rfloor$$.
 
 In this post, we'll look at the long term behavior using two similar approaches. The quantity we are most interested in is the amount of active caffeine that is always present regardless of where the person is along the dosing cycle, i.e. the lowest point along the exponential curve (just before the spike up).
 
